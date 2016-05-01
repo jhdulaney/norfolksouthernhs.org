@@ -18,6 +18,7 @@ body {
 div#header {
     position: relative;
     background: #FF532F;
+    box-sizing: border-box;
     margin: 0px;
     top: 0px;
     left: 0px;
