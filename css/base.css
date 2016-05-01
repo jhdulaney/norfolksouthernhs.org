@@ -2,7 +2,7 @@
 
 
 body {
-    background-color: #FFF1D0;
+    background-color: #FF3E2F;
     margin: auto;
     font-family: serif;
 }
@@ -22,7 +22,7 @@ div#header {
     top: 0px;
     left: 0px;
     width: 100%;
-    color: #F0C808;
+    color: #73DD86;
     padding:  10px;
     font-size: 1.5em;
     font-family: serif;
@@ -47,7 +47,7 @@ div#content {
 
 .menubtn {
     background-color: #FF532F;
-    color: #F0C808;
+    color: #73DD86;
     padding: 10px;
     font-size: 1.0em;
     font-family: serif;
@@ -88,7 +88,7 @@ div#content {
     left: 0;
     bottom: 0;
     width: 100%;
-    color: #F0C808;
+    color: #73DD86;
     font-size: 1.5em;
     font-family: serif;
     line-height: 2.2em;
