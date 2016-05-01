@@ -2,7 +2,7 @@
 
 
 body {
-    background-color: #cfc9c9;
+    background-color: #FFF1D0;
     margin: auto;
     font-family: serif;
 }
@@ -17,12 +17,12 @@ body {
 
 div#header {
     position: fixed;
-    background: #ff4000;
+    background: #DD1C1A;
     margin: 0px;
     top: 0px;
     left: 0px;
     width: 100%;
-    color: #f2f20d;
+    color: #F0C808;
     padding:  20px;
     font-size: 1.5em;
     font-family: serif;
@@ -47,8 +47,8 @@ div#content {
 
 
 .menubtn {
-    background-color: #ff4000;
-    color: #f2f20d;
+    background-color: #DD1C1A;
+    color: #F0C808;
     padding: 10px;
     font-size: 1.0em;
     font-family: serif;
@@ -59,7 +59,7 @@ div#content {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #ff4000;
+    background-color: #DD1C1A;
     min-width: 380px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1000;
@@ -85,11 +85,11 @@ div#content {
 
 
 .footer {
-    background: #ff4000;
+    background: #DD1C1A;
     left: 0;
     bottom: 0;
     width: 100%;
-    color: #f2f20d;
+    color: #F0C808;
     font-size: 1.5em;
     font-family: serif;
     line-height: 2.2em;
