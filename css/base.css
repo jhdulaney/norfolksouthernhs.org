@@ -46,7 +46,7 @@ div#content {
 
 
 .menubtn {
-    background-color: #DD1C1A;
+    background-color: #FF532F;
     color: #F0C808;
     padding: 10px;
     font-size: 1.0em;
@@ -58,7 +58,7 @@ div#content {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #DD1C1A;
+    background-color: #FF532F;
     min-width: 380px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1000;
@@ -84,7 +84,7 @@ div#content {
 
 
 .footer {
-    background: #DD1C1A;
+    background: #FF532F;
     left: 0;
     bottom: 0;
     width: 100%;
