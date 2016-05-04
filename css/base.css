@@ -40,6 +40,7 @@ div#content {
 }
 
 .banner {
+    background-image: url{images/warren/1616_0.jpg} no-repeat;
     background-size: cover;
 }
 
