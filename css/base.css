@@ -39,6 +39,9 @@ div#content {
     z-index: 10;
 }
 
+.banner {
+    background-size: cover;
+}
 
 .dropdown {
     position: relative;
