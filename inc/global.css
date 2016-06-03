@@ -32,8 +32,6 @@ A.nav:active
 
 BODY
 {
-    background-position : 200px 0px;
-    background-repeat   : no-repeat;
     color               : #000000;
     background-color    : #E0E0E0;
     margin              : 0px;
@@ -112,11 +110,11 @@ IMG
 {
     background-image    : url(../images/sidebar_background.png);
     color               : #FFFFFF;
-#   background-color    : #ff0000;
+    background-color    : #ff0000;
     margin              : 0;
     padding             : 0;
     top                 : 250px;
-    bottom              : 0;
+    overflow            : auto;
     width               : 200px;
     vertical-align      : top;
     position            : absolute;
