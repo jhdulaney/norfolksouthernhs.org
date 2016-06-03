@@ -35,7 +35,8 @@ BODY
     color               : #000000;
     background-color    : #E0E0E0;
     margin              : 0px;
-    padding             : 0px
+    padding             : 0px;
+    height              : 100%;
 }
 TABLE
 {
@@ -118,7 +119,7 @@ IMG
     left                : 0;
     width               : 200px;
     vertical-align      : top;
-    position            : absolute;
+    height              : 100%;
 }
 .content
 {
