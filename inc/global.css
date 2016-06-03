@@ -113,7 +113,9 @@ IMG
     color               : #FFFFFF;
     background-color    : #003322;
     margin              : 0px;
-    padding             : 0px
+    padding             : 0px;
+    width               : 200px;
+    vertical-align      : top;
 }
 .content
 {
