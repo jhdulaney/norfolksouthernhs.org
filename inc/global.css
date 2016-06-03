@@ -112,10 +112,11 @@ IMG
 {
     background-image    : url(../images/sidebar_background.png);
     color               : #FFFFFF;
-    background-color    : #003322;
+    background-color    : #ff0000;
     margin              : 0px;
     padding             : 0px;
-
+    top                 : 250px;
+    height              : 100%;
     width               : 200px;
     vertical-align      : top;
     position            : absolute;
