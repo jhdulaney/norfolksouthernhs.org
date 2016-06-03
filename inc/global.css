@@ -122,9 +122,11 @@ IMG
 }
 .content
 {
+    margin-left         : 200px;
     color               : #000000;
     margin              : 0px;
-    padding             : 0px
+    padding             : 0px;
+    width               : 1090px;
 }
 
 H1
