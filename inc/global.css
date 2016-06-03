@@ -293,3 +293,8 @@ header {
     margin-left        : 200px;
     height             : 100%;
 }
+
+.page_wrapper (
+    position           : relative;
+    padding            : 0 0 0 200px;
+}
