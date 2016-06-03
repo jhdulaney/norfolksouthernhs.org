@@ -118,7 +118,7 @@ IMG
     left                : 0;
     width               : 200px;
     vertical-align      : top;
-    position            : absolute;
+    position            : float;
 }
 .content
 {
