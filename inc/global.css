@@ -260,4 +260,5 @@ large_td {
 
 search {
     text-align          : left;
+    vertical-align      : text-top;
 }
