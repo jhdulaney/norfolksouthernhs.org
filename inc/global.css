@@ -127,6 +127,7 @@ IMG
     margin              : 0px;
     padding             : 0px;
     width               : 1090px;
+    display             : table-row;
 }
 
 H1
@@ -292,10 +293,10 @@ header {
     top                : 301px;
     margin-left        : 200px;
     height             : 100%;
+    display            : table-cell;
 }
 
 .page_wrapper (
-    position           : relative;
-    padding            : 0 0 0 200px;
-    height             : 5000px;
+    display            : table;
+    height             : 100 %;
 }
