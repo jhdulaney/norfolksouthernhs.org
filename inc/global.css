@@ -112,7 +112,7 @@ IMG
 {
     background-image    : url(../images/sidebar_background.png);
     color               : #FFFFFF;
-    background-color    : #ff0000;
+#   background-color    : #ff0000;
     margin              : 0;
     padding             : 0;
     top                 : 250px;
