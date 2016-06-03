@@ -256,6 +256,7 @@ large_td {
     color               : #000000;
     height              : 300px;
     width               : 1060px;
+    vertical-align      : text-top;
 }
 
 search {
