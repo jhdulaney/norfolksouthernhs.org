@@ -257,3 +257,7 @@ large_td {
     height              : 300px;
     width               : 1060px;
 }
+
+search {
+    text-align          : left;
+}
