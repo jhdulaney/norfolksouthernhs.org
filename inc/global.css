@@ -185,4 +185,5 @@ header {
 }
 
 .page_wrapper (
+    position           : relative;
 }
