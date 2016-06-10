@@ -43,19 +43,19 @@ IMG
     border: 0;
 }
 
+.sidebar, .sidebar:before {
+    width              : 200px;
+}
+
 .sidebar
 {
     background-image    : url(../images/sidebar_background.png);
     color               : #FFFFFF;
     background-color    : #ff0000;
-    margin              : 0;
-    padding             : 0;
+    padding             : 20px 30px;
     top                 : 250px;
-    bottom              : 0;
-    left                : 0;
-    width               : 200px;
-    display             : table-cell;
-    position            : absolute;
+    float               : left;
+    font-size           : 90%;
 }
 
 .content
