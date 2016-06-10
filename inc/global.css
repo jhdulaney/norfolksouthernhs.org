@@ -26,17 +26,17 @@ A.nav:visited
 }
 A.nav:active
 {
-    text-decoration     : none;
-    color               : #E0E0E0
+    text-decoration: none;
+    color: #E0E0E0
 }
 
 BODY
 {
-    color               : #000000;
-    background-color    : #E0E0E0;
-    margin              : 0px;
-    padding             : 0px;
-    height              : 100%;
+    color: #000000;
+    background-color: #E0E0E0;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
 }
 IMG
 {
@@ -44,18 +44,27 @@ IMG
 }
 
 .sidebar, .sidebar:before {
-    width              : 200px;
+    width: 200px;
 }
 
 .sidebar
 {
-    background-image    : url(../images/sidebar_background.png);
-    color               : #FFFFFF;
-    background-color    : #ff0000;
-    padding             : 20px 30px;
-    top                 : 250px;
-    float               : left;
-    font-size           : 90%;
+    background-image: url(../images/sidebar_background.png);
+    color: #FFFFFF;
+    background-color: #ff0000;
+    padding: 20px 30px;
+    top: 250px;
+    float: left;
+    font-size: 90%;
+}
+
+.sidebar:before {
+    content: '';
+    position: absolute;
+    top: 250px;
+    bottom: 0;
+    z-index: -1;
+    left: 0;
 }
 
 .content
