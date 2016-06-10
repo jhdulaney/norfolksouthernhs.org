@@ -7,3 +7,40 @@ BODY
     height: 100%;
 }
 
+.content, .content:before {
+    width:60%;
+}
+.content {
+    float:left;
+    padding: 20px 30px;
+}
+
+.content:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    left: 0;
+    background: #fff;
+}
+
+.sidebar, .sidebar:before {
+    width:20%;
+}
+.sidebar {
+    float:left;
+    padding: 20px 30px;
+    color: #ebeef3;
+    font-size: 90%;
+}
+
+.sidebar:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    left: 60%;
+    background-color: #5f6673;
+}
