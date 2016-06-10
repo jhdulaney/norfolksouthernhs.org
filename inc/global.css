@@ -25,7 +25,6 @@ BODY
 }
 
 .sidebar, .sidebar:before {
-    top: 300px;
     width:200px;
 }
 .sidebar {
@@ -38,7 +37,7 @@ BODY
 .sidebar:before {
     content: '';
     position: absolute;
-    top: 0;
+    top: 300px;
     bottom: 0;
     z-index: -1;
     left: 0;
