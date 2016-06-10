@@ -29,7 +29,8 @@ BODY
 }
 .sidebar {
     float:left;
-    padding: 0px 4px;
+    background-image: url(../images/sidebar_background.png);
+    padding: 0;
     color: #FFFFFF;
     font-size: 90%;
 }
