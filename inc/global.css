@@ -77,6 +77,15 @@ IMG
     padding: 20px 30px;
 }
 
+.content:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    left: 250px;
+}
+
 .image-padding
 {
     padding             : 5px
