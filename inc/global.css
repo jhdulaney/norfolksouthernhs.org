@@ -25,6 +25,7 @@ BODY
 }
 
 .sidebar, .sidebar:before {
+    top: 300px;
     width:200px;
 }
 .sidebar {
