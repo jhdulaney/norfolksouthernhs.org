@@ -190,7 +190,6 @@ H4
     font-family: Arial, Helvetica;
     background-color: #FFFFFF; 
     padding: 2px 4px;
-    text-decoration: none;
     border: 2px solid #000;
     border-color: #444 #aaa #aaa #444;
     color: #000
@@ -206,4 +205,34 @@ H4
     border-color: #aaa #444 #444 #aaa;
     color: #000
     font-size: 10px
+}
+
+logo {
+
+    height: 300px;
+    width: 200px;
+
+}
+
+search {
+    text-align: right;
+    top: 1px;
+    position: relative;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.header_bg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin-left: 200px;
+    background-image: url(../images/nshs_header.png);
+    background-repeat: no-repeat;
+    height: 350px;
 }
