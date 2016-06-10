@@ -38,70 +38,6 @@ BODY
     padding             : 0px;
     height              : 100%;
 }
-TABLE
-{
-    position            : relative;
-    margin              : 0px;
-    padding             : 0px;
-    top                 : 300px;
-}
-TD, TH
-{
-    font-family         : Arial, Helvetica;
-    margin              : 0px;
-    padding             : 0px;
-    color               : #000000;
-    height              : 300px;
-}
-P
-{
-    font-family         : Arial, Helvetica;
-    margin              : 10px 0px 10px 0px;
-    padding             : 5px;
-    color               : #000000;
-    font-size           : 12px
-}
-OL LI
-{
-    font-family         : Arial, Helvetica;
-    margin              : 10px 0px 10px 0px;
-    padding             : 5px;
-    color               : #000000;
-    font-size           : 13px;
-    list-style-type     : decimal
-}
-OL OL LI
-{
-    font-family         : Arial, Helvetica;
-    margin              : 10px 0px 10px 0px;
-    padding             : 5px;
-    color               : #000000;
-    font-size           : 13px;
-    list-style-type     : upper-roman
-}
-UL LI
-{
-    font-family         : Arial, Helvetica;
-    margin              : 10px 0px 10px 0px;
-    padding             : 5px;
-    color               : #000000;
-    font-size           : 13px;
-    font-family         : Arial, Helvetica;
-}
-UL UL LI
-{
-    font-family         : Arial, Helvetica;
-    margin              : 10px 0px 10px 0px;
-    padding             : 5px;
-    color               : #000000;
-    font-size           : 13px;
-    font-family         : Arial, Helvetica;
-}
-HR
-{
-    background-color    : #E0E0E0
-}
-
 IMG
 {
     border: 0;
@@ -121,6 +57,7 @@ IMG
     display             : table-cell;
     position            : absolute;
 }
+
 .content
 {
     margin-left         : 200px;
@@ -131,60 +68,6 @@ IMG
     display             : table-row;
 }
 
-H1
-{
-    font-family         : Arial, Helvetica;
-    margin              : 30px 0px 10px 0px;
-    padding             : 5px;
-    color               : #FF0000;
-    font-weight         : bold;
-    font-style          : italic;
-    font-size           : 20px;
-    text-indent         : 15px
-}
-H2
-{
-    font-family         : Arial, Helvetica;
-    margin              : 0px 0px 10px 0px;
-    padding             : 5px;
-    color               : #FF0000;
-    font-weight         : bold;
-    font-style          : italic;
-    font-size           : 14px;
-    text-indent         : 15px
-}
-H3
-{
-    font-family         : Arial, Helvetica;
-    margin              : 0px 0px 10px 0px;
-    padding             : 5px;
-    color               : #FF0000;
-    font-weight         : bold;
-    font-style          : italic;
-    font-size           : 12px
-}
-H4
-{
-    font-family         : Arial, Helvetica;
-    margin              : 0px 0px 10px 0px;
-    padding             : 5px;
-    color               : #FF0000;
-    font-weight         : bold;
-    font-size           : 12px
-}
-.nav
-{
-    font-family         : Fixed, Arial, Helvetica;
-    margin              : 0px 0px 10px 0px;
-    padding             : 5px;
-    text-align          : center;
-    font-size           : 12px
-}
-.text
-{
-    font-family         : Arial, Helvetica;
-    color               : #000000
-}
 .image-padding
 {
     padding             : 5px
@@ -199,6 +82,7 @@ H4
     color               : #000000;
     background-color    : #E0E0E0
 }
+
 .nav_header
 {
     font-family         : Arial, Helvetica;
@@ -211,6 +95,7 @@ H4
     font-style          : italic;
     font-size           : 12;
 }
+
 .copyright
 {
     font-family         : Arial, Helvetica;
@@ -221,6 +106,7 @@ H4
     text-align          : center;
     font-size           : 10px
 }
+
 .search_field {
     font-family         : Arial, Helvetica;
     background-color    : #FFFFFF; 
@@ -231,6 +117,7 @@ H4
     color               : #000
     font-size           : 10px
 }
+
 .search_button {
     font-family         : Arial, Helvetica;
     background-color    : #FFFF00; 
