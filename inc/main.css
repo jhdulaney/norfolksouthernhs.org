@@ -22,12 +22,20 @@ BODY
 
 .sidebar {
     display: table-cell;
-    width:200px;
+    width: 20%;
     padding: 0;
     bottom: 0;
     color: #FFFFFF;
     font-size: 90%;
 #    background-image: url(../images/sidebar_background.png);
+    background-color: #ff0000;
+}
+
+.sidebar-stripes {
+    display:  table-cell;
+    widith: 1%;
+    padding: 0;
+    bottom: 0;
     background-color: #ff0000;
 }
 
