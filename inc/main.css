@@ -13,7 +13,6 @@ BODY
 
 .content {
     width:60%;
-    float:left;
     padding: 50px 30px;
     content: '';
     position: absolute;
