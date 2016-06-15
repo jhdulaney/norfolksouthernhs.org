@@ -8,7 +8,7 @@ BODY
 }
 
 .wrap {
-    top: 300px;
+    top: 1px;
     position: absolute;
     display: table;
 }
@@ -213,8 +213,8 @@ H4
 
 logo {
 
-    height: 300px;
-    width: 200px;
+    height: 50%;
+    width: 50%;
 
 }
 
