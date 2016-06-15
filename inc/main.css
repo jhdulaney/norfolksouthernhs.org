@@ -27,7 +27,7 @@ BODY
     bottom: 0;
     color: #FFFFFF;
     font-size: 90%;
-    background-image: url(../images/sidebar_background.png);
+#    background-image: url(../images/sidebar_background.png);
     background-color: #ff0000;
 }
 
