@@ -33,10 +33,26 @@ BODY
 
 .sidebar-stripes {
     display:  table-cell;
-    widith: 1%;
+    widith: 2%;
     padding: 0;
     bottom: 0;
     background-color: #ff0000;
+}
+
+.stripe-yellow {
+    width: 50%;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    background-color: #ffff00;
+}
+
+.stripe-black {
+    width: 50%;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    background-color: black;
 }
 
 A:link
