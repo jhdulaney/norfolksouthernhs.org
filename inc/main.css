@@ -28,25 +28,16 @@ BODY
     left: 0;
 }
 
-.sidebar, .sidebar:before {
-    width:200px;
-}
 .sidebar {
+    width:200px;
+    top: 300px;
     float:left;
     padding: 0;
     color: #FFFFFF;
     font-size: 90%;
-}
-
-.sidebar:before {
-    content: '';
-    position: absolute;
-    top: 300px;
-    bottom: 0;
-    z-index: -1;
-    left: 0;
     background-image: url(../images/sidebar_background.png);
     background-color: #ff0000;
+    position: absolute;
 }
 
 A:link
