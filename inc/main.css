@@ -5,6 +5,7 @@ BODY
     margin: 0px;
     padding: 0px;
     height: 100%;
+    overflow-x: hidden;
 }
 
 .wrap {
@@ -13,11 +14,16 @@ BODY
     display: table;
 }
 
-.content {
+.main {
     display: table-cell;
-    padding: 50px 30px;
-    left: 200px;
     bottom: 0;
+}
+
+.content {
+    padding: 10px 3%;
+    margin: 300px 0 0 0;
+    position: relative;
+    width: 80%;
 }
 
 .sidebar {
@@ -27,7 +33,6 @@ BODY
     bottom: 0;
     color: #FFFFFF;
     font-size: 90%;
-#    background-image: url(../images/sidebar_background.png);
     background-color: #ff0000;
 }
 
@@ -211,31 +216,24 @@ H4
     font-size: 10px
 }
 
-logo {
-
-    height: 50%;
-    width: 50%;
-
+.logo {
+    margin: 0 0 40% 0;
+    height: 100%;
+    width: 100%;
 }
 
-search {
+.search {
     text-align: right;
     top: 1px;
-    position: relative;
-}
-
-header {
     position: absolute;
-    top: 0;
-    width: 100%;
-    margin-left: 0px;
+    margin: 1% 0 0 1%;
 }
 
 .header_bg {
     position: absolute;
     top: 0;
     width: 100%;
-    margin-left: 200px;
+    margin-left: 0;
     background-image: url(../images/nshs_header.png);
     background-repeat: no-repeat;
     height: 350px;
