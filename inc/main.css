@@ -11,18 +11,14 @@ BODY
     padding: 300px 0;
 }
 
-.content, .content:before {
-    width:60%;
-}
 .content {
+    width:60%;
     float:left;
     padding: 50px 30px;
-}
-
-.content:before {
     content: '';
     position: absolute;
-    top: 0;
+    top: 300px;
+    left: 200px;
     bottom: 0;
     z-index: -1;
     left: 0;
