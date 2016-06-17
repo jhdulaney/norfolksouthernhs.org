@@ -9,11 +9,11 @@ BODY
 }
 
 .wrap {
-    top: 1px;
-    position: absolute;
 }
 
 .main {
+    width: 86%;
+    float: right;
     bottom: 0;
 }
 
@@ -25,6 +25,9 @@ BODY
 }
 
 .sidebar {
+    position: absolute;
+    top: 0;
+    float: left;
     width: 14%;
     padding: 0;
     bottom: 0;
