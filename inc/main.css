@@ -25,7 +25,6 @@ BODY
 }
 
 .sidebar {
-    position: absolute;
     top: 0;
     float: left;
     width: 14%;
